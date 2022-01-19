@@ -1,4 +1,4 @@
-00/****************************************************************************
+/****************************************************************************
 Copyright (c) 2015-2016 Chukong Technologies Inc.
 Copyright (c) 2017-2018 Xiamen Yaji Software Co., Ltd.
  
@@ -40,6 +40,7 @@ public class AppActivity extends Cocos2dxActivity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        app = this;
         // Workaround in
         // https://stackoverflow.com/questions/16283079/re-launch-of-activity-on-home-button-but-only-the-first-time/16447508
         if (!isTaskRoot()) {
