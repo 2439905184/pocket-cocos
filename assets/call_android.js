@@ -33,15 +33,21 @@ cc.Class({
     start() {
 
     },
+    //横幅 激励视频 插屏静态广告
+    ad_types:["banner","reward","inter"],
+    //调用Toast输出hello world测试
     test: function() {
         //cc.log("hello world")
-        //正式接入时请更换这里的参数包名
-        //jsb.reflection.callStaticMethod("com/xiaofengyu/travel")
-        //调用Toast输出hello world测试
         jsb.reflection.callStaticMethod("org/cocos2dx/javascript/AppActivity", "hello", "()V")
     },
-    init: function() {
-        // jsb.reflection.callStaticMethod("com/cocos/game/Test", "hello", "(Ljava/lang/String;)V", "this is a message from JavaScript");
+    //测试插屏广告 请输入正式id进行测试
+    showInter: function() {
+        jsb.reflection.callStaticMethod("org/cocos2dx/javascript/AppActivity", "showAD", "(Ljava/lang/String;Ljava/lang/String;)V","banner","unknow id")
     },
+    //测试激励广告 请输入正式id进行测试
+    showReward:function()
+    {
+        jsb.reflection.callStaticMethod("org/cocos2dx/javascript/AppActivity", "showAD","(Ljava/lang/String;Ljava/lang/String;)V","reward","unknow id")
+    }
     // update (dt) {},
 });
