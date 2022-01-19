@@ -27,6 +27,6 @@ jobs:
         cd build/jsb-link/frameworks/runtime-src/proj.android-studio
         ./gradlew build
     - uses: actions/upload-artifact@v2
-        with:
-          name: pocket_demo
-          path: build/jsb-link/frameworks/runtime-src/proj.android-studio/app/build/outputs/apk/debug/PocketAdDemo-debug.apk
+      with:
+        name: pocket_demo
+        path: build/jsb-link/frameworks/runtime-src/proj.android-studio/app/build/outputs/apk/debug/PocketAdDemo-debug.apk
