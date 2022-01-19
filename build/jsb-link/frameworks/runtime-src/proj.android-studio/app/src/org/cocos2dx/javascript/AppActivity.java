@@ -31,9 +31,11 @@ import android.os.Bundle;
 
 import android.content.Intent;
 import android.content.res.Configuration;
+import android.widget.Toast;
 
 public class AppActivity extends Cocos2dxActivity
 {
+    public static AppActivity app = null;
     //移除SDKWrapper 用不着
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -141,5 +143,16 @@ public class AppActivity extends Cocos2dxActivity
     protected void onStart() {
         //SDKWrapper.getInstance().onStart();
         super.onStart();
+    }
+    public static void hello()
+    {
+        app.runOnUiThread(new Runnable() {
+            @Override
+            public void run()
+            {
+                Toast.makeText(app, "hello world", Toast.LENGTH_SHORT).show();
+            }
+        });
+
     }
 }
