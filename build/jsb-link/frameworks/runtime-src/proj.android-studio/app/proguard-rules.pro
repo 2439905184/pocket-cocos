@@ -15,6 +15,7 @@
 #-keepclassmembers class fqcn.of.javascript.interface.for.webview {
 #   public *;
 #}
+#两颗星表示把本包和所含子包下的类名都保持；
 
 # Proguard Cocos2d-x-lite for release
 -keep public class org.cocos2dx.** { *; }
@@ -40,5 +41,5 @@
 -dontwarn android.webkit.WebViewClient
 
 # keep anysdk for release. you can comment if you are not using anysdk
--keep public class com.anysdk.** { *; }
+#-keep public class com.anysdk.** { *; }
 -dontwarn com.anysdk.**

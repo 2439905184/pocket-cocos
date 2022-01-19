@@ -5,12 +5,13 @@ import android.content.Context;
 import android.util.Log;
 
 import androidx.multidex.MultiDex;
+import androidx.multidex.MultiDexApplication;
 
-import com.zh.pocket.PocketSdk;
+//import com.zh.pocket.PocketSdk;
 
 //此类仅用于测试 这是早期的口袋官方代码里拿出来的包名和对应参数
 //注意 正式接入时请将此类移动到正式包名一致的前缀包名文件夹里
-public class Pocket extends Application
+public class Pocket extends MultiDexApplication
 {
     @Override
     protected void attachBaseContext(Context base)

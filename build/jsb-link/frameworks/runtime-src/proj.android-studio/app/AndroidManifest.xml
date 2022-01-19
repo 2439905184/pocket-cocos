@@ -54,6 +54,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <!--
         <activity
             android:name="com.qq.e.ads.PortraitADActivity"
             android:screenOrientation="portrait"
@@ -64,7 +65,6 @@
             android:screenOrientation="landscape"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
             tools:replace="android:screenOrientation"/>
-<!--tools:replace="android:screenOrientation"-->
         <provider
             android:name="com.qq.e.comm.GDTFileProvider"
             android:authorities="${applicationId}.gdt.fileprovider"
@@ -89,6 +89,7 @@
             android:name="com.bytedance.sdk.openadsdk.multipro.TTMultiProvider"
             android:authorities="${applicationId}.TTMultiProvider"
             android:exported="false" />
+        -->
     </application>
     
 </manifest>

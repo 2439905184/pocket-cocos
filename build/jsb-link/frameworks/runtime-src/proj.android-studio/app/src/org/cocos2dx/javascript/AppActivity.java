@@ -36,9 +36,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-import com.zh.pocket.ads.banner.BannerAD;
+/*import com.zh.pocket.ads.banner.BannerAD;
 import com.zh.pocket.ads.interstitial.InterstitialAD;
-import com.zh.pocket.ads.reward_video.RewardVideoAD;
+import com.zh.pocket.ads.reward_video.RewardVideoAD;*/
 
 public class AppActivity extends Cocos2dxActivity
 {
