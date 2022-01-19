@@ -30,21 +30,18 @@ cc.Class({
 
     // onLoad () {},
 
-    start () 
-    {
+    start() {
 
     },
-    test : function()
-    {
-      cc.log("hello world")
-      //正式接入时请更换这里的参数包名
-      //jsb.reflection.callStaticMethod("com/xiaofengyu/travel")
-      //调用Toast输出hello world测试
-      jsb.reflection.callStaticMethod("org/cocos2dx/javascript/AppActivity","hello","()V")
+    test: function() {
+        //cc.log("hello world")
+        //正式接入时请更换这里的参数包名
+        //jsb.reflection.callStaticMethod("com/xiaofengyu/travel")
+        //调用Toast输出hello world测试
+        jsb.reflection.callStaticMethod("org/cocos2dx/javascript/AppActivity", "hello", "()V")
     },
-    init : function()
-    {
-     // jsb.reflection.callStaticMethod("com/cocos/game/Test", "hello", "(Ljava/lang/String;)V", "this is a message from JavaScript");
+    init: function() {
+        // jsb.reflection.callStaticMethod("com/cocos/game/Test", "hello", "(Ljava/lang/String;)V", "this is a message from JavaScript");
     },
     // update (dt) {},
 });
