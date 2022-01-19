@@ -1,0 +1,1 @@
+[![Android CI](https://github.com/2439905184/pocket-cocos/actions/workflows/android.yml/badge.svg)](https://github.com/2439905184/pocket-cocos/actions/workflows/android.yml)
