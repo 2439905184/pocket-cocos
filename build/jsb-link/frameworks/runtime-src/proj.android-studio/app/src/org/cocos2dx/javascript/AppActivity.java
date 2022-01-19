@@ -31,7 +31,13 @@ import android.os.Bundle;
 
 import android.content.Intent;
 import android.content.res.Configuration;
+import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Toast;
+
+import com.zh.pocket.ads.banner.BannerAD;
+import com.zh.pocket.ads.interstitial.InterstitialAD;
+import com.zh.pocket.ads.reward_video.RewardVideoAD;
 
 public class AppActivity extends Cocos2dxActivity
 {
@@ -155,5 +161,33 @@ public class AppActivity extends Cocos2dxActivity
             }
         });
 
+    }
+    public static void showAD(String type,String id)
+    {
+        //核心展示广告代码
+        switch (type)
+        {
+            case "banner":
+                BannerAD bannerAD = new BannerAD(app,id);
+                //ViewGroup vg = (ViewGroup)app.getGLSurfaceView();
+                //bannerAD.loadAD(vg);
+            //静态插屏
+            case "inter":
+                InterstitialAD interstitialAD = new InterstitialAD(app,id);
+                interstitialAD.setInterstitialADListener(null);
+                interstitialAD.load();
+                //激励视频
+            case "reward":
+                RewardVideoAD rewardVideoAD = new RewardVideoAD(app,id);
+                rewardVideoAD.setRewardVideoADListener(null);
+                rewardVideoAD.loadAD();
+        }
+        /*app.runOnUiThread(new Runnable() {
+            @Override
+            public void run()
+            {
+
+            }
+        });*/
     }
 }
