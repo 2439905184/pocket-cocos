@@ -70,7 +70,7 @@ android {
             debuggable false
             jniDebuggable false
             renderscriptDebuggable false
-            minifyEnabled false
+            minifyEnabled true
             shrinkResources true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             if (project.hasProperty("RELEASE_STORE_FILE")) {
@@ -87,7 +87,8 @@ android {
         debug {
             debuggable true
             jniDebuggable true
-            minifyEnabled false
+            /*minifyEnabled false
+            shrinkResources false*/
             renderscriptDebuggable true
             externalNativeBuild {
                 ndkBuild {
