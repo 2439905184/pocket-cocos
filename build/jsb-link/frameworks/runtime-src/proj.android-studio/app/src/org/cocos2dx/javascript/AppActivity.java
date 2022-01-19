@@ -165,31 +165,32 @@ public class AppActivity extends Cocos2dxActivity
     }
     public static void showAD(String type,String id)
     {
-        //核心展示广告代码
-        switch (type)
-        {
-            case "banner":
-                BannerAD bannerAD = new BannerAD(app,id);
-                //ViewGroup vg = (ViewGroup)app.getGLSurfaceView();
-                //bannerAD.loadAD(vg);
-            //静态插屏
-            case "inter":
-                InterstitialAD interstitialAD = new InterstitialAD(app,id);
-                interstitialAD.setInterstitialADListener(null);
-                interstitialAD.load();
-                //激励视频
-            case "reward":
-                RewardVideoAD rewardVideoAD = new RewardVideoAD(app,id);
-                rewardVideoAD.setRewardVideoADListener(null);
-                rewardVideoAD.loadAD();
-        }
-        /*app.runOnUiThread(new Runnable() {
+         app.runOnUiThread(new Runnable() {
             @Override
             public void run()
             {
-
+                //核心展示广告代码
+                /*switch (type)
+                {
+                    case "banner":
+                        BannerAD bannerAD = new BannerAD(app,id);
+                        //ViewGroup vg = (ViewGroup)app.getGLSurfaceView();
+                        //bannerAD.loadAD(vg);
+                        //静态插屏
+                    case "inter":
+                        InterstitialAD interstitialAD = new InterstitialAD(app,id);
+                        interstitialAD.setInterstitialADListener(null);
+                        interstitialAD.load();
+                        //激励视频
+                    case "reward":
+                        RewardVideoAD rewardVideoAD = new RewardVideoAD(app,id);
+                        rewardVideoAD.setRewardVideoADListener(null);
+                        rewardVideoAD.loadAD();
+                }*/
             }
-        });*/
+        });
+
+
         /*app.runOnGLThread(new Runnable() {
             @Override
             public void run() {

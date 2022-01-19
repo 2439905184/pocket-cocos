@@ -107,8 +107,8 @@ android {
 android.applicationVariants.all { variant ->
     // delete previous files first
     delete "${buildDir}/intermediates/merged_assets/${variant.dirName}"
-
-    variant.mergeAssets.doLast {
+    //variant.mergeAssets.doLast
+    variant.getMergeAssetsProvider().get().doLast {
         def sourceDir = "${buildDir}/../../../../.."
 
         copy {
@@ -141,4 +141,6 @@ dependencies {
     implementation 'com.squareup.okhttp3:okhttp:4.9.2'
     implementation 'com.google.code.gson:gson:2.8.8'
     implementation 'androidx.legacy:legacy-support-core-ui:1.0.0'
+    //报错提示库
+    //implementation 'com.simple.spiderman:1.1.5'
 }

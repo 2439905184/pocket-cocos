@@ -13,7 +13,9 @@ public class Pocket extends Application
     public void onCreate()
     {
         super.onCreate();
-        PocketSdk.initSDK(this,"test", "10006");
+        //初始化报错提示
+        //SpiderMan.init(this);
+        //PocketSdk.initSDK(this,"test", "10006");
         Log.d("Pocket","初始化sdk！");
     }
 }

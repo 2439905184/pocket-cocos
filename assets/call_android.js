@@ -34,7 +34,7 @@ cc.Class({
 
     },
     //横幅 激励视频 插屏静态广告
-    ad_types:["banner","reward","inter"],
+    //ad_types:["banner","reward","inter"],
     //调用Toast输出hello world测试
     test: function() {
         //cc.log("hello world")

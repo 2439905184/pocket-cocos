@@ -13,9 +13,6 @@ NDK_TOOLCHAIN_VERSION=clang
 NDK_MODULE_PATH=E:\CocosDashboard\resources\.editors\Creator\2.4.5\resources\cocos2d-x;E:\CocosDashboard\resources\.editors\Creator\2.4.5\resources\cocos2d-x\cocos;E:\CocosDashboard\resources\.editors\Creator\2.4.5\resources\cocos2d-x\external
 -j2
 NDK_DEBUG=0
-APP_SHORT_COMMANDS=false
-LOCAL_SHORT_COMMANDS=false
--B
--n
+E:/PocketAdDemo/build/jsb-link/frameworks/runtime-src/proj.android-studio/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libcocos2djs.so
 jvmArgs : 
 
