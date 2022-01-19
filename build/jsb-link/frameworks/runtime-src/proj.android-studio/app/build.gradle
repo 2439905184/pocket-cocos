@@ -11,13 +11,14 @@ android {
     }
     defaultConfig {
         applicationId "com.xiaofenyu.travel"
-        minSdkVersion 21
-        //minSdkVersion PROP_MIN_SDK_VERSION
-        targetSdkVersion 28
-        //targetSdkVersion PROP_TARGET_SDK_VERSION
+        //minSdkVersion 21
+        minSdkVersion PROP_MIN_SDK_VERSION
+        //targetSdkVersion 28
+
+        targetSdkVersion PROP_TARGET_SDK_VERSION
         versionCode 1
         versionName "1.0"
-
+        multiDexEnabled true
         externalNativeBuild {
             ndkBuild {
                 if (!project.hasProperty("PROP_NDK_MODE") || PROP_NDK_MODE.compareTo('none') != 0) {
@@ -141,6 +142,8 @@ dependencies {
     implementation 'com.squareup.okhttp3:okhttp:4.9.2'
     implementation 'com.google.code.gson:gson:2.8.8'
     implementation 'androidx.legacy:legacy-support-core-ui:1.0.0'
+    //dex支持
+    implementation 'androidx.multidex:multidex:2.0.1'
     //报错提示库
     //implementation 'com.simple.spiderman:1.1.5'
 }

@@ -1,7 +1,10 @@
 package com.xiaofenyu.travel;
 
 import android.app.Application;
+import android.content.Context;
 import android.util.Log;
+
+import androidx.multidex.MultiDex;
 
 import com.zh.pocket.PocketSdk;
 
@@ -10,12 +13,18 @@ import com.zh.pocket.PocketSdk;
 public class Pocket extends Application
 {
     @Override
+    protected void attachBaseContext(Context base)
+    {
+        super.attachBaseContext(base);
+        MultiDex.install(this);
+    }
+    /*@Override
     public void onCreate()
     {
         super.onCreate();
         //初始化报错提示
         //SpiderMan.init(this);
         //PocketSdk.initSDK(this,"test", "10006");
-        Log.d("Pocket","初始化sdk！");
-    }
+        //Log.d("Pocket","初始化sdk！");
+    }*/
 }
