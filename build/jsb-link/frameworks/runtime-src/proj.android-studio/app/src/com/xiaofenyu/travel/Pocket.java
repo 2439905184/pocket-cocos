@@ -25,8 +25,8 @@ public class Pocket extends MultiDexApplication
         super.onCreate();
         //初始化报错提示
         //SpiderMan.init(this);
-        CrashHandler crashHandler = CrashHandler.getInstance();
-        crashHandler.init(this);
+        /*CrashHandler crashHandler = CrashHandler.getInstance();
+        crashHandler.init(this);*/
         //PocketSdk.initSDK(this,"test", "10006");
         //Log.d("Pocket","初始化sdk！");
     }

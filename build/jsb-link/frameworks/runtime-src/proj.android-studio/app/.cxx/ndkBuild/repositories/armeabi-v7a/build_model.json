@@ -4,20 +4,19 @@
   "buildSettings": {
     "environmentVariables": []
   },
-  "cxxBuildFolder": "E:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\.cxx\\ndkBuild\\debug\\armeabi-v7a",
+  "cxxBuildFolder": "E:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\.cxx\\ndkBuild\\repositories\\armeabi-v7a",
   "info": {
     "abi": "ARMEABI_V7A",
     "bitness": 32,
     "deprecated": false,
     "default": true
   },
-  "originalCxxBuildFolder": "E:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\.cxx\\ndkBuild\\debug\\armeabi-v7a",
+  "originalCxxBuildFolder": "E:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\.cxx\\ndkBuild\\repositories\\armeabi-v7a",
   "variant": {
     "buildSystemArgumentList": [
       "NDK_TOOLCHAIN_VERSION\u003dclang",
       "NDK_MODULE_PATH\u003dE:\\CocosDashboard\\resources\\.editors\\Creator\\2.4.5\\resources\\cocos2d-x;E:\\CocosDashboard\\resources\\.editors\\Creator\\2.4.5\\resources\\cocos2d-x\\cocos;E:\\CocosDashboard\\resources\\.editors\\Creator\\2.4.5\\resources\\cocos2d-x\\external",
-      "-j2",
-      "NDK_DEBUG\u003d1"
+      "-j2"
     ],
     "buildTargetSet": [
       "cocos2djs"
@@ -26,7 +25,7 @@
     "cFlagsList": [],
     "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
     "cppFlagsList": [],
-    "isDebuggableEnabled": true,
+    "isDebuggableEnabled": false,
     "module": {
       "buildSystem": "NDK_BUILD",
       "cmakeToolchainFile": "H:\\ndk\\ndk\\21.0.6113669\\build\\cmake\\android.toolchain.cmake",
@@ -101,7 +100,6 @@
       "project": {
         "compilerSettingsCacheFolder": "E:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\.cxx",
         "cxxFolder": "E:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\.cxx",
-        "ideBuildTargetAbi": "x86,armeabi-v7a,armeabi",
         "isBuildOnlyTargetAbiEnabled": true,
         "isCmakeBuildCohabitationEnabled": false,
         "isNativeCompilerSettingsCacheEnabled": false,
@@ -122,13 +120,13 @@
         "SYSTEM": {}
       }
     },
-    "objFolder": "E:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local",
-    "variantName": "debug",
+    "objFolder": "E:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\build\\intermediates\\ndkBuild\\repositories\\obj\\local",
+    "variantName": "repositories",
     "validAbiList": [
       "ARMEABI_V7A"
     ],
-    "prefabDirectory": "E:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\.cxx\\ndkBuild\\debug\\prefab",
+    "prefabDirectory": "E:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\.cxx\\ndkBuild\\repositories\\prefab",
     "prefabPackageDirectoryList": []
   },
-  "prefabFolder": "E:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\.cxx\\ndkBuild\\debug\\prefab\\armeabi-v7a"
+  "prefabFolder": "E:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\.cxx\\ndkBuild\\repositories\\prefab\\armeabi-v7a"
 }
