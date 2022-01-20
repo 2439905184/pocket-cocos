@@ -101,7 +101,6 @@
       "project": {
         "compilerSettingsCacheFolder": "E:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\.cxx",
         "cxxFolder": "E:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\.cxx",
-        "ideBuildTargetAbi": "x86,armeabi-v7a,armeabi",
         "isBuildOnlyTargetAbiEnabled": true,
         "isCmakeBuildCohabitationEnabled": false,
         "isNativeCompilerSettingsCacheEnabled": false,
@@ -125,7 +124,8 @@
     "objFolder": "E:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local",
     "variantName": "debug",
     "validAbiList": [
-      "ARMEABI_V7A"
+      "ARMEABI_V7A",
+      "X86"
     ],
     "prefabDirectory": "E:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\.cxx\\ndkBuild\\debug\\prefab",
     "prefabPackageDirectoryList": []
