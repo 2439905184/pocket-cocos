@@ -1253,7 +1253,7 @@
     },
     "component": "",
     "_componentId": "6fc9d7+XtJJl7PW3LIGnsH2",
-    "handler": "init",
+    "handler": "showInter",
     "customEventData": ""
   },
   {
@@ -1638,7 +1638,7 @@
     },
     "component": "",
     "_componentId": "6fc9d7+XtJJl7PW3LIGnsH2",
-    "handler": "init",
+    "handler": "showReward",
     "customEventData": ""
   },
   {
