@@ -125,6 +125,7 @@
     "variantName": "debug",
     "validAbiList": [
       "ARMEABI_V7A",
+      "ARM64_V8A",
       "X86"
     ],
     "prefabDirectory": "E:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\.cxx\\ndkBuild\\debug\\prefab",

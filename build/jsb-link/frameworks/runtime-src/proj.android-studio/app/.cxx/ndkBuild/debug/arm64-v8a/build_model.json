@@ -1,17 +1,17 @@
 {
-  "abi": "ARMEABI_V7A",
+  "abi": "ARM64_V8A",
   "abiPlatformVersion": 19,
   "buildSettings": {
     "environmentVariables": []
   },
-  "cxxBuildFolder": "E:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\.cxx\\ndkBuild\\debug\\armeabi-v7a",
+  "cxxBuildFolder": "E:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\.cxx\\ndkBuild\\debug\\arm64-v8a",
   "info": {
-    "abi": "ARMEABI_V7A",
-    "bitness": 32,
+    "abi": "ARM64_V8A",
+    "bitness": 64,
     "deprecated": false,
     "default": true
   },
-  "originalCxxBuildFolder": "E:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\.cxx\\ndkBuild\\debug\\armeabi-v7a",
+  "originalCxxBuildFolder": "E:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\.cxx\\ndkBuild\\debug\\arm64-v8a",
   "variant": {
     "buildSystemArgumentList": [
       "NDK_TOOLCHAIN_VERSION\u003dclang",
@@ -131,5 +131,5 @@
     "prefabDirectory": "E:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\.cxx\\ndkBuild\\debug\\prefab",
     "prefabPackageDirectoryList": []
   },
-  "prefabFolder": "E:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\.cxx\\ndkBuild\\debug\\prefab\\armeabi-v7a"
+  "prefabFolder": "E:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\.cxx\\ndkBuild\\debug\\prefab\\arm64-v8a"
 }
