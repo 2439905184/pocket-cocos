@@ -1,6 +1,6 @@
 {
   "abi": "ARM64_V8A",
-  "abiPlatformVersion": 19,
+  "abiPlatformVersion": 21,
   "buildSettings": {
     "environmentVariables": []
   },

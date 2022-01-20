@@ -38,7 +38,7 @@ window.__require = function e(t, n, r) {
         jsb.reflection.callStaticMethod("org/cocos2dx/javascript/AppActivity", "hello", "()V");
       },
       showInter: function showInter() {
-        jsb.reflection.callStaticMethod("org/cocos2dx/javascript/AppActivity", "showAD", "(Ljava/lang/String;Ljava/lang/String;)V", "banner", "unknow id");
+        jsb.reflection.callStaticMethod("org/cocos2dx/javascript/AppActivity", "showAD", "(Ljava/lang/String;Ljava/lang/String;)V", "inter", "unknow id");
       },
       showReward: function showReward() {
         jsb.reflection.callStaticMethod("org/cocos2dx/javascript/AppActivity", "showAD", "(Ljava/lang/String;Ljava/lang/String;)V", "reward", "unknow id");

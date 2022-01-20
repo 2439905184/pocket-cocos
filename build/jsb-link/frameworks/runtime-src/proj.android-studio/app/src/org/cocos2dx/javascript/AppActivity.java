@@ -37,6 +37,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
+import com.zh.pocket.ads.interstitial.InterstitialAD;
+import com.zh.pocket.ads.interstitial.InterstitialADListener;
+import com.zh.pocket.ads.reward_video.RewardVideoAD;
+import com.zh.pocket.ads.reward_video.RewardVideoADListener;
+import com.zh.pocket.error.ADError;
+
 /*import com.zh.pocket.ads.banner.BannerAD;
 import com.zh.pocket.ads.interstitial.InterstitialAD;
 import com.zh.pocket.ads.reward_video.RewardVideoAD;*/
@@ -167,30 +173,111 @@ public class AppActivity extends Cocos2dxActivity
     public static void showAD(String type,String id)
     {
         Log.d("showAd","showAd被调用");
-        Log.d(type,id);
-         /*app.runOnUiThread(new Runnable() {
+        Log.d("showAd","type:"+type+" id:"+id);
+        app.runOnUiThread(new Runnable() {
             @Override
             public void run()
             {
-                //核心展示广告代码
-                /*switch (type)
+                Toast.makeText(app, "showAd被调用,type:"+type+"id:"+id, Toast.LENGTH_SHORT).show();
+                if(type.equals("inter"))
                 {
-                    case "banner":
-                        BannerAD bannerAD = new BannerAD(app,id);
-                        //ViewGroup vg = (ViewGroup)app.getGLSurfaceView();
-                        //bannerAD.loadAD(vg);
-                        //静态插屏
-                    case "inter":
-                        InterstitialAD interstitialAD = new InterstitialAD(app,id);
-                        interstitialAD.setInterstitialADListener(null);
-                        interstitialAD.load();
-                        //激励视频
-                    case "reward":
-                        RewardVideoAD rewardVideoAD = new RewardVideoAD(app,id);
-                        rewardVideoAD.setRewardVideoADListener(null);
-                        rewardVideoAD.loadAD();
+                    InterstitialAD interstitialAD = new InterstitialAD(app,id);
+                    interstitialAD.setInterstitialADListener(new InterstitialADListener() {
+                        @Override
+                        public void onFailed(ADError adError) {
+
+                        }
+
+                        @Override
+                        public void onADExposure() {
+
+                        }
+
+                        @Override
+                        public void onADClicked() {
+
+                        }
+
+                        @Override
+                        public void onADClosed() {
+
+                        }
+
+                        @Override
+                        public void onSuccess() {
+
+                        }
+
+                        @Override
+                        public void onADLoaded() {
+
+                        }
+                    });
+                    interstitialAD.showAD();
+                }
+                else if(type.equals("reward"))
+                {
+                    RewardVideoAD rewardVideoAD = new RewardVideoAD(app,id);
+                    rewardVideoAD.setRewardVideoADListener(new RewardVideoADListener() {
+                        @Override
+                        public void onFailed(ADError adError) {
+
+                        }
+
+                        @Override
+                        public void onSuccess() {
+
+                        }
+
+                        @Override
+                        public void onVideoCached() {
+
+                        }
+
+                        @Override
+                        public void onADShow() {
+
+                        }
+
+                        @Override
+                        public void onADExposure() {
+
+                        }
+
+                        @Override
+                        public void onReward() {
+
+                        }
+
+                        @Override
+                        public void onADClicked() {
+
+                        }
+
+                        @Override
+                        public void onADClosed() {
+
+                        }
+
+                        @Override
+                        public void onVideoComplete() {
+
+                        }
+
+                        @Override
+                        public void onSkippedVideo() {
+
+                        }
+
+                        @Override
+                        public void onADLoaded() {
+
+                        }
+                    });
+                    rewardVideoAD.loadAD();
                 }
             }
-        });*/
+        });
+        
     }
 }

@@ -42,7 +42,7 @@ cc.Class({
     },
     //测试插屏广告 请输入正式id进行测试
     showInter: function() {
-        jsb.reflection.callStaticMethod("org/cocos2dx/javascript/AppActivity", "showAD", "(Ljava/lang/String;Ljava/lang/String;)V","banner","unknow id")
+        jsb.reflection.callStaticMethod("org/cocos2dx/javascript/AppActivity", "showAD", "(Ljava/lang/String;Ljava/lang/String;)V","inter","unknow id")
     },
     //测试激励广告 请输入正式id进行测试
     showReward:function()

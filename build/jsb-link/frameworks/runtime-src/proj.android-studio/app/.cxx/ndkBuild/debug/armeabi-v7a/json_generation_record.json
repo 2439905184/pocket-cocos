@@ -1,7 +1,7 @@
 [
   {
     "level": "INFO",
-    "message": "Start JSON generation. Platform version: 19 min SDK version: armeabi-v7a",
+    "message": "Start JSON generation. Platform version: 21 min SDK version: armeabi-v7a",
     "file": "E:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Android.mk",
     "tag": "debug|armeabi-v7a"
   },
