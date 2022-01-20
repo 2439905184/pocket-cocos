@@ -873,7 +873,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "init",
+    "_name": "inter",
     "_objFlags": 512,
     "_parent": {
       "__id__": 7

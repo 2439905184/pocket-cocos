@@ -19,7 +19,7 @@ public class Pocket extends MultiDexApplication
         super.attachBaseContext(base);
         MultiDex.install(this);
     }
-    /@Override
+    @Override
     public void onCreate()
     {
         super.onCreate();
