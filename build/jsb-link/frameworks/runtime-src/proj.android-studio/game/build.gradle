@@ -1,5 +1,6 @@
 import org.apache.tools.ant.taskdefs.condition.Os
-apply plugin: 'com.android.feature'
+//apply plugin: 'com.android.feature'
+apply plugin: 'com.android.application'
 android {
     baseFeature true
     compileSdkVersion PROP_COMPILE_SDK_VERSION.toInteger()

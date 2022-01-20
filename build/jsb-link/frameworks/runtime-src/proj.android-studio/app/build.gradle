@@ -3,8 +3,10 @@ import org.apache.tools.ant.taskdefs.condition.Os
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion PROP_COMPILE_SDK_VERSION.toInteger()
-    buildToolsVersion PROP_BUILD_TOOLS_VERSION
+    compileSdkVersion 30
+    buildToolsVersion "30.0.3"
+    //compileSdkVersion PROP_COMPILE_SDK_VERSION.toInteger()
+    //buildToolsVersion PROP_BUILD_TOOLS_VERSION
     compileOptions {
         sourceCompatibility 1.8
         targetCompatibility 1.8
@@ -89,7 +91,12 @@ android {
                 }
             }
         }
-
+        repositories {
+            maven { url 'https://jitpack.io' }
+            flatDir {
+                dirs 'libs'
+            }
+        }
         debug {
             debuggable true
             jniDebuggable true
@@ -134,14 +141,18 @@ dependencies {
     implementation fileTree(dir: "E:/CocosDashboard/resources/.editors/Creator/2.4.5/resources/cocos2d-x/cocos/platform/android/java/libs", include: ['*.jar'])
     implementation project(':libcocos2dx')
     //必备依赖
-    /*implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation(name: 'pocket_ad_sdk_2.0.2', ext: 'aar')
+    implementation(name: 'csj_ad_sdk_211014', ext: 'aar')
+    implementation(name: 'gdt_ad_sdk_210928', ext: 'aar')
+    implementation(name: 'ks_ad_sdk_211014', ext: 'aar')
+    implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'com.google.android.material:material:1.1.0'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
 
     //okhttp cocos已经有了 如果广告用不了 请解除注释
-    implementation 'com.squareup.okhttp3:okhttp:4.9.2'
+    //implementation 'com.squareup.okhttp3:okhttp:4.9.2'
     implementation 'com.google.code.gson:gson:2.8.8'
-    implementation 'androidx.legacy:legacy-support-core-ui:1.0.0'*/
+    implementation 'androidx.legacy:legacy-support-core-ui:1.0.0'
     //dex支持 2.0.1
     implementation 'androidx.multidex:multidex:+'
     //报错提示库

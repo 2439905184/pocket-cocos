@@ -32,6 +32,7 @@ import android.os.Bundle;
 
 import android.content.Intent;
 import android.content.res.Configuration;
+import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
@@ -165,7 +166,9 @@ public class AppActivity extends Cocos2dxActivity
     }
     public static void showAD(String type,String id)
     {
-         app.runOnUiThread(new Runnable() {
+        Log.d("showAd","showAd被调用");
+        Log.d(type,id);
+         /*app.runOnUiThread(new Runnable() {
             @Override
             public void run()
             {
@@ -186,15 +189,7 @@ public class AppActivity extends Cocos2dxActivity
                         RewardVideoAD rewardVideoAD = new RewardVideoAD(app,id);
                         rewardVideoAD.setRewardVideoADListener(null);
                         rewardVideoAD.loadAD();
-                }*/
-            }
-        });
-
-
-        /*app.runOnGLThread(new Runnable() {
-            @Override
-            public void run() {
-                Cocos2dxJavascriptJavaBridge.evalString("");
+                }
             }
         });*/
     }

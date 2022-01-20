@@ -1,4 +1,4 @@
-include ':libcocos2dx',':game'
+include ':libcocos2dx'//,':game'
 //':instantapp'
 project(':libcocos2dx').projectDir = new File('E:/CocosDashboard/resources/.editors/Creator/2.4.5/resources/cocos2d-x/cocos/platform/android/libcocos2dx')
 include ':PocketAdDemo'
