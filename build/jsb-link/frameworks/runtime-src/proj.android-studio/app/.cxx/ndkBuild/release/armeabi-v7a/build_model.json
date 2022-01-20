@@ -1,6 +1,6 @@
 {
   "abi": "ARMEABI_V7A",
-  "abiPlatformVersion": 19,
+  "abiPlatformVersion": 21,
   "buildSettings": {
     "environmentVariables": []
   },
@@ -124,7 +124,9 @@
     "objFolder": "E:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local",
     "variantName": "release",
     "validAbiList": [
-      "ARMEABI_V7A"
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86"
     ],
     "prefabDirectory": "E:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\.cxx\\ndkBuild\\release\\prefab",
     "prefabPackageDirectoryList": []

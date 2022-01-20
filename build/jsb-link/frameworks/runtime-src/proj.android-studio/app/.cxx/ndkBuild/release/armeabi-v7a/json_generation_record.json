@@ -1,7 +1,7 @@
 [
   {
     "level": "INFO",
-    "message": "Start JSON generation. Platform version: 19 min SDK version: armeabi-v7a",
+    "message": "Start JSON generation. Platform version: 21 min SDK version: armeabi-v7a",
     "file": "E:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Android.mk",
     "tag": "release|armeabi-v7a"
   },
@@ -13,19 +13,13 @@
   },
   {
     "level": "INFO",
-    "message": "- expected json E:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\.cxx\\ndkBuild\\release\\armeabi-v7a\\android_gradle_build.json file is not present, will remove stale json folder",
-    "file": "E:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Android.mk",
-    "tag": "release|armeabi-v7a"
-  },
-  {
-    "level": "INFO",
-    "message": "- missing previous command file E:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\.cxx\\ndkBuild\\release\\armeabi-v7a\\build_command.txt, will remove stale json folder",
-    "file": "E:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Android.mk",
-    "tag": "release|armeabi-v7a"
-  },
-  {
-    "level": "INFO",
     "message": "- command changed from previous, will remove stale json folder",
+    "file": "E:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Android.mk",
+    "tag": "release|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "removing stale contents from \u0027E:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\.cxx\\ndkBuild\\release\\armeabi-v7a\u0027",
     "file": "E:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Android.mk",
     "tag": "release|armeabi-v7a"
   },
@@ -37,49 +31,19 @@
   },
   {
     "level": "INFO",
-    "message": "executing ndkBuild Executable : H:\\ndk\\ndk\\21.0.6113669\\ndk-build.cmd\narguments : \nNDK_PROJECT_PATH\u003dnull\nAPP_BUILD_SCRIPT\u003dE:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Android.mk\nNDK_APPLICATION_MK\u003dE:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Application.mk\nAPP_ABI\u003darmeabi-v7a\nNDK_ALL_ABIS\u003darmeabi-v7a\nNDK_DEBUG\u003d0\nAPP_PLATFORM\u003dandroid-19\nNDK_OUT\u003dE:/PocketAdDemo/build/jsb-link/frameworks/runtime-src/proj.android-studio/app/build/intermediates/ndkBuild/release/obj\nNDK_LIBS_OUT\u003dE:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\build\\intermediates\\ndkBuild\\release\\lib\nNDK_TOOLCHAIN_VERSION\u003dclang\nNDK_MODULE_PATH\u003dE:\\CocosDashboard\\resources\\.editors\\Creator\\2.4.5\\resources\\cocos2d-x;E:\\CocosDashboard\\resources\\.editors\\Creator\\2.4.5\\resources\\cocos2d-x\\cocos;E:\\CocosDashboard\\resources\\.editors\\Creator\\2.4.5\\resources\\cocos2d-x\\external\n-j2\nNDK_DEBUG\u003d0\nAPP_SHORT_COMMANDS\u003dfalse\nLOCAL_SHORT_COMMANDS\u003dfalse\n-B\n-n\njvmArgs : \n\n",
+    "message": "executing ndkBuild Executable : H:\\ndk\\ndk\\21.0.6113669\\ndk-build.cmd\narguments : \nNDK_PROJECT_PATH\u003dnull\nAPP_BUILD_SCRIPT\u003dE:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Android.mk\nNDK_APPLICATION_MK\u003dE:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Application.mk\nAPP_ABI\u003darmeabi-v7a\nNDK_ALL_ABIS\u003darmeabi-v7a\nNDK_DEBUG\u003d0\nAPP_PLATFORM\u003dandroid-21\nNDK_OUT\u003dE:/PocketAdDemo/build/jsb-link/frameworks/runtime-src/proj.android-studio/app/build/intermediates/ndkBuild/release/obj\nNDK_LIBS_OUT\u003dE:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\build\\intermediates\\ndkBuild\\release\\lib\nNDK_TOOLCHAIN_VERSION\u003dclang\nNDK_MODULE_PATH\u003dE:\\CocosDashboard\\resources\\.editors\\Creator\\2.4.5\\resources\\cocos2d-x;E:\\CocosDashboard\\resources\\.editors\\Creator\\2.4.5\\resources\\cocos2d-x\\cocos;E:\\CocosDashboard\\resources\\.editors\\Creator\\2.4.5\\resources\\cocos2d-x\\external\n-j2\nNDK_DEBUG\u003d0\nAPP_SHORT_COMMANDS\u003dfalse\nLOCAL_SHORT_COMMANDS\u003dfalse\n-B\n-n\njvmArgs : \n\n",
     "file": "E:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Android.mk",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
-    "message": "Executable : H:\\ndk\\ndk\\21.0.6113669\\ndk-build.cmd\narguments : \nNDK_PROJECT_PATH\u003dnull\nAPP_BUILD_SCRIPT\u003dE:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Android.mk\nNDK_APPLICATION_MK\u003dE:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Application.mk\nAPP_ABI\u003darmeabi-v7a\nNDK_ALL_ABIS\u003darmeabi-v7a\nNDK_DEBUG\u003d0\nAPP_PLATFORM\u003dandroid-19\nNDK_OUT\u003dE:/PocketAdDemo/build/jsb-link/frameworks/runtime-src/proj.android-studio/app/build/intermediates/ndkBuild/release/obj\nNDK_LIBS_OUT\u003dE:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\build\\intermediates\\ndkBuild\\release\\lib\nNDK_TOOLCHAIN_VERSION\u003dclang\nNDK_MODULE_PATH\u003dE:\\CocosDashboard\\resources\\.editors\\Creator\\2.4.5\\resources\\cocos2d-x;E:\\CocosDashboard\\resources\\.editors\\Creator\\2.4.5\\resources\\cocos2d-x\\cocos;E:\\CocosDashboard\\resources\\.editors\\Creator\\2.4.5\\resources\\cocos2d-x\\external\n-j2\nNDK_DEBUG\u003d0\nAPP_SHORT_COMMANDS\u003dfalse\nLOCAL_SHORT_COMMANDS\u003dfalse\n-B\n-n\njvmArgs : \n\n",
+    "message": "Executable : H:\\ndk\\ndk\\21.0.6113669\\ndk-build.cmd\narguments : \nNDK_PROJECT_PATH\u003dnull\nAPP_BUILD_SCRIPT\u003dE:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Android.mk\nNDK_APPLICATION_MK\u003dE:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Application.mk\nAPP_ABI\u003darmeabi-v7a\nNDK_ALL_ABIS\u003darmeabi-v7a\nNDK_DEBUG\u003d0\nAPP_PLATFORM\u003dandroid-21\nNDK_OUT\u003dE:/PocketAdDemo/build/jsb-link/frameworks/runtime-src/proj.android-studio/app/build/intermediates/ndkBuild/release/obj\nNDK_LIBS_OUT\u003dE:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\build\\intermediates\\ndkBuild\\release\\lib\nNDK_TOOLCHAIN_VERSION\u003dclang\nNDK_MODULE_PATH\u003dE:\\CocosDashboard\\resources\\.editors\\Creator\\2.4.5\\resources\\cocos2d-x;E:\\CocosDashboard\\resources\\.editors\\Creator\\2.4.5\\resources\\cocos2d-x\\cocos;E:\\CocosDashboard\\resources\\.editors\\Creator\\2.4.5\\resources\\cocos2d-x\\external\n-j2\nNDK_DEBUG\u003d0\nAPP_SHORT_COMMANDS\u003dfalse\nLOCAL_SHORT_COMMANDS\u003dfalse\n-B\n-n\njvmArgs : \n\n",
     "file": "E:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Android.mk",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
-    "message": "done executing ndkBuild",
-    "file": "E:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Android.mk",
-    "tag": "release|armeabi-v7a"
-  },
-  {
-    "level": "INFO",
-    "message": "write build output E:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\.cxx\\ndkBuild\\release\\armeabi-v7a\\build_output.txt",
-    "file": "E:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Android.mk",
-    "tag": "release|armeabi-v7a"
-  },
-  {
-    "level": "INFO",
-    "message": "parse and convert ndk-build output to build configuration JSON",
-    "file": "E:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Android.mk",
-    "tag": "release|armeabi-v7a"
-  },
-  {
-    "level": "INFO",
-    "message": "found application make file E:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Application.mk",
-    "file": "E:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Android.mk",
-    "tag": "release|armeabi-v7a"
-  },
-  {
-    "level": "INFO",
-    "message": "write command file E:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\.cxx\\ndkBuild\\release\\armeabi-v7a\\build_command.txt",
-    "file": "E:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Android.mk",
-    "tag": "release|armeabi-v7a"
-  },
-  {
-    "level": "INFO",
-    "message": "JSON generation completed without problems",
+    "message": "JSON generation completed with problem. Exception: Build command failed.\nError while executing process H:\\ndk\\ndk\\21.0.6113669\\ndk-build.cmd with arguments {NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dE:/PocketAdDemo/build/jsb-link/frameworks/runtime-src/proj.android-studio/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dE:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\build\\intermediates\\ndkBuild\\release\\lib NDK_TOOLCHAIN_VERSION\u003dclang NDK_MODULE_PATH\u003dE:\\CocosDashboard\\resources\\.editors\\Creator\\2.4.5\\resources\\cocos2d-x;E:\\CocosDashboard\\resources\\.editors\\Creator\\2.4.5\\resources\\cocos2d-x\\cocos;E:\\CocosDashboard\\resources\\.editors\\Creator\\2.4.5\\resources\\cocos2d-x\\external -j2 NDK_DEBUG\u003d0 APP_SHORT_COMMANDS\u003dfalse LOCAL_SHORT_COMMANDS\u003dfalse -B -n}\nAndroid NDK: WARNING: Unsupported source file extensions in E:\\CocosDashboard\\resources\\.editors\\Creator\\2.4.5\\resources\\cocos2d-x/cocos/Android.mk for module cocos2dx_static    \nAndroid NDK:   ../external/sources/edtaa3func/edtaa3func.h renderer/memop/RecyclePool.hpp    \n\nfwrite()",
     "file": "E:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Android.mk",
     "tag": "release|armeabi-v7a"
   }

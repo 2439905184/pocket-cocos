@@ -12,7 +12,7 @@ android {
         targetCompatibility 1.8
     }
     defaultConfig {
-        applicationId "com.xiaofenyu.travel"
+        applicationId "com.pocket.zxpa"
         minSdkVersion 21
         //minSdkVersion PROP_MIN_SDK_VERSION
         //targetSdkVersion 28
