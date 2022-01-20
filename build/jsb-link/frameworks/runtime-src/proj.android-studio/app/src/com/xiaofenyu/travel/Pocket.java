@@ -7,6 +7,8 @@ import android.util.Log;
 import androidx.multidex.MultiDex;
 import androidx.multidex.MultiDexApplication;
 
+import com.zh.pocket.PocketSdk;
+
 //import com.zh.pocket.PocketSdk;
 
 //此类仅用于测试 这是早期的口袋官方代码里拿出来的包名和对应参数
@@ -27,7 +29,7 @@ public class Pocket extends MultiDexApplication
         //SpiderMan.init(this);
         /*CrashHandler crashHandler = CrashHandler.getInstance();
         crashHandler.init(this);*/
-        //PocketSdk.initSDK(this,"test", "10006");
+        PocketSdk.initSDK(this,"xiaomi","1");
         //Log.d("Pocket","初始化sdk！");
     }
 }
