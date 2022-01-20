@@ -55,7 +55,37 @@
   },
   {
     "level": "INFO",
-    "message": "JSON generation completed with problem. Exception: org.gradle.process.internal.ExecException: A problem occurred waiting for process \u0027command \u0027H:\\ndk\\ndk\\21.0.6113669\\ndk-build.cmd\u0027\u0027 to complete.",
+    "message": "done executing ndkBuild",
+    "file": "E:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Android.mk",
+    "tag": "repositories|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "write build output E:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\.cxx\\ndkBuild\\repositories\\x86\\build_output.txt",
+    "file": "E:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Android.mk",
+    "tag": "repositories|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "parse and convert ndk-build output to build configuration JSON",
+    "file": "E:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Android.mk",
+    "tag": "repositories|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "found application make file E:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Application.mk",
+    "file": "E:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Android.mk",
+    "tag": "repositories|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "write command file E:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\.cxx\\ndkBuild\\repositories\\x86\\build_command.txt",
+    "file": "E:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Android.mk",
+    "tag": "repositories|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed without problems",
     "file": "E:\\PocketAdDemo\\build\\jsb-link\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Android.mk",
     "tag": "repositories|x86"
   }
