@@ -22,7 +22,7 @@
   "zipCompressJs": true,
   "fb-instant-games": {},
   "android": {
-    "packageName": "com.xiaofenyu.travel",
+    "packageName": "com.pocket.zxpa",
     "REMOTE_SERVER_ROOT": ""
   },
   "ios": {

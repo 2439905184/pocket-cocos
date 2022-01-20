@@ -40,14 +40,16 @@ cc.Class({
         //cc.log("hello world")
         jsb.reflection.callStaticMethod("org/cocos2dx/javascript/AppActivity", "hello", "()V")
     },
-    //测试插屏广告 请输入正式id进行测试
+    //测试插屏广告 id6 请输入正式id进行测试
     showInter: function() {
-        jsb.reflection.callStaticMethod("org/cocos2dx/javascript/AppActivity", "showAD", "(Ljava/lang/String;Ljava/lang/String;)V","inter","unknow id")
+        jsb.reflection.callStaticMethod("com/pocket/zxpa/App", "showAD", "(Ljava/lang/String;Ljava/lang/String;)V","inter","6")
+        //jsb.reflection.callStaticMethod("org/cocos2dx/javascript/AppActivity", "showAD", "(Ljava/lang/String;Ljava/lang/String;)V","inter","6")
     },
-    //测试激励广告 请输入正式id进行测试
+    //测试激励广告 id2 请输入正式id进行测试
     showReward:function()
     {
-        jsb.reflection.callStaticMethod("org/cocos2dx/javascript/AppActivity", "showAD","(Ljava/lang/String;Ljava/lang/String;)V","reward","unknow id")
+        jsb.reflection.callStaticMethod("com/pocket/zxpa/App", "showAD", "(Ljava/lang/String;Ljava/lang/String;)V","reward","2")
+        //jsb.reflection.callStaticMethod("org/cocos2dx/javascript/AppActivity", "showAD","(Ljava/lang/String;Ljava/lang/String;)V","reward","2")
     }
     // update (dt) {},
 });
